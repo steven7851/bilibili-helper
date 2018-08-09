@@ -5,6 +5,7 @@
 // @description  通过替换获取视频地址接口的方式, 实现解除B站区域限制; 只对HTML5播放器生效; 只支持番剧视频;
 // @author       ipcjs
 // @supportURL   https://github.com/ipcjs/bilibili-helper/issues
+// @downloadURL  https://github.com/ipcjs/bilibili-helper/raw/user.js/bilibili_bangumi_area_limit_hack.user.js
 // @compatible   chrome
 // @compatible   firefox
 // @license      MIT
