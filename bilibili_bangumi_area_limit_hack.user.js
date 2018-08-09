@@ -1355,10 +1355,10 @@ function scriptSource(invokeBy) {
                         if (balh_config.flv_prefer_ws) {
                             data.durl.forEach(function (seg) {
                                 var t, url, i;
-                                if (!seg.url.includes('ws.acgvideo.com')) {
+                                if (!seg.url.includes('upos-hz-mirrorcos.acgvideo.com')) {
                                     for (i in seg.backup_url) {
                                         url = seg.backup_url[i];
-                                        if (url.includes('ws.acgvideo.com')) {
+                                        if (url.includes('upos-hz-mirrorcos.acgvideo.com')) {
                                             log('flv prefer use:', url);
                                             t = seg.url;
                                             seg.url = url;
@@ -2057,7 +2057,7 @@ function scriptSource(invokeBy) {
                         _('label', { style: { flex: 1 } }, [_('input', { type: 'checkbox', name: 'balh_enable_in_av' }), _('text', '在AV页面启用'), _('a', { href: 'https://github.com/ipcjs/bilibili-helper/issues/172', target: '_blank' }, [_('text', '(？)')])]),
                         _('div', { style: { flex: 1, display: 'flex' } }, [
                             _('label', { style: { flex: 1 } }, [_('input', { type: 'checkbox', name: 'balh_remove_pre_ad' }), _('text', '去前置广告')]),
-                            _('label', { style: { flex: 1 } }, [_('input', { type: 'checkbox', name: 'balh_flv_prefer_ws' }), _('text', '优先使用ws')]),
+                            _('label', { style: { flex: 1 } }, [_('input', { type: 'checkbox', name: 'balh_flv_prefer_ws' }), _('text', '优先使用cos')]),
                         ])
                     ]), _('br'),
                     _('a', { href: 'javascript:', 'data-sign': 'in', event: { click: onSignClick } }, [_('text', '帐号授权')]),
