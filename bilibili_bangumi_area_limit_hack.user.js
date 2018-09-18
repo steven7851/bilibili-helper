@@ -2085,7 +2085,11 @@ function scriptSource(invokeBy) {
                                 _('option', { value: "oss" }, [_('text', 'oss（阿里）')]),
                                 _('option', { value: "kodo" }, [_('text', 'kodo（七牛）')]),
                                 _('option', { value: "cos" }, [_('text', 'cos（腾讯）')]),
-                                _('option', { value: "bos" }, [_('text', 'bos（百度）')])
+                                _('option', { value: "bos" }, [_('text', 'bos（百度）')]),
+                                _('option', { value: "wcs" }, [_('text', 'wcs（网宿）')]),
+                                _('option', { value: "bsy" }, [_('text', 'bsy（白山）')]),
+                                _('option', { value: "jc" }, [_('text', 'jc（京东）')]),
+                                _('option', { value: "isure" }, [_('text', 'isure（云端智度）')]),
                             ]),
                         _('span', { 'id': 'upos-server-message' })
                     ]), _('br'),
@@ -2101,7 +2105,7 @@ function scriptSource(invokeBy) {
                         _('label', { style: { flex: 1 } }, [_('input', { type: 'checkbox', name: 'balh_enable_in_av' }), _('text', '在AV页面启用'), _('a', { href: 'https://github.com/ipcjs/bilibili-helper/issues/172', target: '_blank' }, [_('text', '(？)')])]),
                         _('div', { style: { flex: 1, display: 'flex' } }, [
                             _('label', { style: { flex: 1 } }, [_('input', { type: 'checkbox', name: 'balh_remove_pre_ad' }), _('text', '去前置广告')]),
-                            _('label', { style: { flex: 1 } }, [_('input', { type: 'checkbox', name: 'balh_flv_prefer_ws' }), _('text', '优先使用ws')]),
+                            _('label', { style: { flex: 1 } }, [_('input', { type: 'checkbox', name: 'balh_flv_prefer_ws' }), _('text', '优先使用cos')]),
                         ])
                     ]), _('br'),
                     _('a', { href: 'javascript:', 'data-sign': 'in', event: { click: onSignClick } }, [_('text', '帐号授权')]),
