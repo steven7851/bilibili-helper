@@ -1496,7 +1496,7 @@ function scriptSource(invokeBy) {
     const balh_feature_runPing = function () {
         var pingOutput = document.getElementById('balh_server_ping');
 
-        var xhr = new XMLHttpRequest(), testUrl = [r.const.server.S0, r.const.server.S1],
+        var xhr = new XMLHttpRequest(), testUrl = [r.const.server.S0, r.const.server.S1, r.const.server.S2],
             testUrlIndex = 0, isReused = false, prevNow, outputArr = [];
         pingOutput.textContent = '正在进行服务器测速…';
         pingOutput.style.height = '100px';
