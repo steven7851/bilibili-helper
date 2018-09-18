@@ -2086,10 +2086,6 @@ function scriptSource(invokeBy) {
                                 _('option', { value: "kodo" }, [_('text', 'kodo（七牛）')]),
                                 _('option', { value: "cos" }, [_('text', 'cos（腾讯）')]),
                                 _('option', { value: "bos" }, [_('text', 'bos（百度）')]),
-                                _('option', { value: "wcs" }, [_('text', 'wcs（网宿）')]),
-                                _('option', { value: "bsy" }, [_('text', 'bsy（白山）')]),
-                                _('option', { value: "jc" }, [_('text', 'jc（京东）')]),
-                                _('option', { value: "isure" }, [_('text', 'isure（云端智度）')]),
                             ]),
                         _('span', { 'id': 'upos-server-message' })
                     ]), _('br'),
