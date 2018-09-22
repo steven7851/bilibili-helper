@@ -1359,10 +1359,10 @@ function scriptSource(invokeBy) {
                         if (balh_config.flv_prefer_ws) {
                             data.durl.forEach(function (seg) {
                                 var t, url, i;
-                                if (!seg.url.includes('upos-hz-mirrorcos.acgvideo.com')) {
+                                if (!seg.url.includes('upos-hz-mirrorcos')) {
                                     for (i in seg.backup_url) {
                                         url = seg.backup_url[i];
-                                        if (url.includes('upos-hz-mirrorcos.acgvideo.com')) {
+                                        if (url.includes('upos-hz-mirrorcos')) {
                                             log('flv prefer use:', url);
                                             t = seg.url;
                                             seg.url = url;
